@@ -64,6 +64,22 @@ yarn dev
 
 The application will be running at `http://localhost:3000` by default.
 
+## Using this Starter Template
+
+To start a new project based on this template **without copying the original Git history**, you can use [`degit`](https://github.com/Rich-Harris/degit):
+
+```bash
+npx degit akshaypx/react-toolpad-starter my-new-app
+cd my-new-app
+git init
+git remote add origin https://github.com/your-username/my-new-app.git
+git add .
+git commit -m "Initial commit from react-toolpad-starter"
+git push -u origin main
+```
+
+This clones the code into a fresh folder, initializes your own Git repo, and sets it up to push to your GitHub.
+
 ## Project Structure
 
 - `src/`: Contains the source code of the application.
